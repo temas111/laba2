@@ -1,0 +1,27 @@
+.Contacts {
+ border-radius: 0 10px 10px 0;
+ width: 300px;
+ background:#ffe6ac; 
+ color: #fff; 
+ position: fixed; 
+ min-height: 100px; 
+ top: 310px; left: -320px;
+ border-right: 20px solid #fc0; 
+ padding: 10px;
+ transition: left 2s; 
+}
+.Contacts img {
+ float: left;
+ margin: 0 10px 0 0;
+}
+.Contacts::after {
+ content:' NURE Contacts'; 
+ color: #000; 
+ position: absolute; 
+ right: -60px; bottom: 50px;
+ transform: rotate(-90deg); 
+ -webkit-transform: rotate(-90deg);
+}
+.Contacts:hover {
+ left: 0; 
+}
